@@ -1,4 +1,8 @@
-# artifact-store: Storage for artifacts like videos, logs and screenshots. 
+# artifact-store: Storage for artifacts like videos, logs and screenshots.
+
+Modified from orignal version to use S3 instead of Azure object storage
+
+Modified to use S3 instead of Azure Object Storage
 
 Post a multipart file upload to the / endpoint and the 'artifact-store' does the following:
 1. Saves each file in an S3 compatible data store
